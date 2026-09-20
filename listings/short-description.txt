@@ -1,0 +1,1 @@
+Remote HTTPS MCP for Apple Wallet + Google Wallet passes. Paste a sk_live_ key once — generate, update, and share passes from Cursor, Claude, ChatGPT, Codex, or Grok.

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "passfast": {
+      "url": "https://passfa.st/mcp",
+      "headers": {
+        "Authorization": "Bearer sk_live_YOUR_SECRET_KEY",
+        "X-App-Id": "YOUR_APP_ID"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "passfast",
+  "version": "1.0.0",
+  "description": "Remote HTTPS MCP for Apple Wallet + Google Wallet passes. Paste sk_live_ once.",
+  "homepage": "https://passfa.st/docs/mcp",
+  "keywords": ["passfast", "passfa.st", "wallet pass", "mcp"]
+}

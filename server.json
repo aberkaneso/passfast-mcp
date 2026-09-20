@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.passfa.st/passfast",
+  "title": "PassFast",
+  "description": "Remote HTTPS MCP for Apple Wallet and Google Wallet passes. Paste a sk_live_ secret key once — generate, update, void, and share passes from any MCP client.",
+  "version": "1.0.0",
+  "websiteUrl": "https://passfa.st/",
+  "repository": {
+    "url": "https://github.com/aberkaneso/passfast-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://passfa.st/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer sk_live_… secret API key from the PassFast dashboard (pk_live_ is rejected).",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "X-App-Id",
+          "description": "Optional app UUID. Required for multi-app orgs; optional for single-app orgs.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
