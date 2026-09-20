@@ -2,7 +2,7 @@
 
 **Upstream:** https://github.com/xai-org/plugin-marketplace  
 **Plugin source:** https://github.com/aberkaneso/passfast-mcp (this repo)  
-**Pin:** replace `222220a480142b82d8dea595942426633dc4c869` with `git ls-remote https://github.com/aberkaneso/passfast-mcp.git HEAD`
+**Pin:** replace `1f30bb2a62c0f6793065e06d7098b2a62dff718c` with `git ls-remote https://github.com/aberkaneso/passfast-mcp.git HEAD`
 
 ## Catalog entry (shape — confirm against current CONTRIBUTING)
 
@@ -14,7 +14,7 @@
   "source": {
     "type": "remote",
     "url": "https://github.com/aberkaneso/passfast-mcp",
-    "sha": "222220a480142b82d8dea595942426633dc4c869"
+    "sha": "1f30bb2a62c0f6793065e06d7098b2a62dff718c"
   },
   "keywords": ["passfast", "passfa.st", "wallet pass", "apple wallet", "google wallet"]
 }
