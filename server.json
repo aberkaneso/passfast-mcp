@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.passfa.st/passfast",
+  "name": "st.passfa/passfast",
   "title": "PassFast",
-  "description": "Remote HTTPS MCP for Apple Wallet and Google Wallet passes. Paste a sk_live_ secret key once — generate, update, void, and share passes from any MCP client.",
+  "description": "Remote HTTPS MCP for Apple Wallet and Google Wallet passes. Paste a sk_live_ secret key once \u2014 generate, update, void, and share passes from any MCP client.",
   "version": "1.0.0",
   "websiteUrl": "https://passfa.st/",
   "repository": {
@@ -16,7 +16,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer sk_live_… secret API key from the PassFast dashboard (pk_live_ is rejected).",
+          "description": "Bearer sk_live_\u2026 secret API key from the PassFast dashboard (pk_live_ is rejected).",
           "isRequired": true,
           "isSecret": true
         },
