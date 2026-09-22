@@ -2,16 +2,19 @@
   "name": "passfast",
   "version": "1.0.0",
   "description": "Remote HTTPS MCP for Apple Wallet + Google Wallet passes. Paste sk_live_ once.",
+  "author": {
+    "name": "PassFast",
+    "email": "support@aberkane.io"
+  },
   "homepage": "https://passfa.st/docs/mcp",
+  "repository": "https://github.com/aberkaneso/passfast-mcp",
   "license": "MIT",
   "keywords": [
     "passfast",
-    "passfa.st",
-    "apple wallet",
-    "google wallet",
-    "wallet pass",
+    "wallet",
+    "apple-wallet",
+    "google-wallet",
     "mcp"
   ],
-  "mcp": ".mcp.json",
   "logo": "assets/logo.png"
 }
